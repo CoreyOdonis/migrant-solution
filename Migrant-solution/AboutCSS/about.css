@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+} 
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+
+}
+#banner-section h1{
+    height: 20vh;
+    margin-bottom: 40px;
+    padding-top: 30px;
+    border-radius:10px; 
+    border:none; 
+}
+#banner-section button{
+    background-color: #cc3300;
+    color: white;
+    height: 40px;
+    width: 140px;
+    border: none;
+    border-radius: 6px;
+}
+#container {
+    display: grid;
+    height: 500px;
+    align-content: center;
+    padding: 100px;
+    border: none;
+    background: white;
+}
+#reach-out .card{
+    width: 23rem;
+    height: 80vh;
+}
+form input{
+    width: 100px;
+    height: 40px;
+    margin: 15px 0 15px 0;
+    padding: 15px;
+    border-radius: 6px;
+    border: none;
+    border-bottom: 2px solid gray;
+}
+#reach-out button{
+    border-radius: 10px;
+    border: none;
+    width: 130px;
+    height: 40px;
+    background-color: #CC3300;
+    margin-top: 35px;
+}
